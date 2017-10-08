@@ -15,6 +15,8 @@
 		EB99E4FE1F88FF6900092BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB99E4FC1F88FF6900092BA5 /* LaunchScreen.storyboard */; };
 		EB99E5091F88FF6900092BA5 /* cajunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99E5081F88FF6900092BA5 /* cajunTests.swift */; };
 		EB99E5141F88FF6900092BA5 /* cajunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99E5131F88FF6900092BA5 /* cajunUITests.swift */; };
+		EBB46ADA1F8A22DD0022A656 /* SecretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB46AD91F8A22DD0022A656 /* SecretViewController.swift */; };
+		EBB46ADC1F8A23DB0022A656 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB46ADB1F8A23DB0022A656 /* Secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EB99E50F1F88FF6900092BA5 /* cajunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cajunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB99E5131F88FF6900092BA5 /* cajunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cajunUITests.swift; sourceTree = "<group>"; };
 		EB99E5151F88FF6900092BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB46AD91F8A22DD0022A656 /* SecretViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretViewController.swift; sourceTree = "<group>"; };
+		EBB46ADB1F8A23DB0022A656 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Secret.swift; path = model/Secret.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				EB99E4FC1F88FF6900092BA5 /* LaunchScreen.storyboard */,
 				EB99E4FF1F88FF6900092BA5 /* Info.plist */,
 				EB99E4F71F88FF6900092BA5 /* cajun.xcdatamodeld */,
+				EBB46AD91F8A22DD0022A656 /* SecretViewController.swift */,
+				EBB46ADB1F8A23DB0022A656 /* Secret.swift */,
 			);
 			path = cajun;
 			sourceTree = "<group>";
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB99E4F31F88FF6900092BA5 /* ViewController.swift in Sources */,
+				EBB46ADC1F8A23DB0022A656 /* Secret.swift in Sources */,
 				EB99E4F11F88FF6900092BA5 /* AppDelegate.swift in Sources */,
+				EBB46ADA1F8A22DD0022A656 /* SecretViewController.swift in Sources */,
 				EB99E4F91F88FF6900092BA5 /* cajun.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4QK4Z6R5X;
 				INFOPLIST_FILE = cajun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orozco.cajun;
@@ -445,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4QK4Z6R5X;
 				INFOPLIST_FILE = cajun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orozco.cajun;

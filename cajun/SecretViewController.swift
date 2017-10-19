@@ -12,11 +12,9 @@ class SecretViewController: UIViewController {
     
     @IBOutlet weak var target: UITextField!
     @IBOutlet weak var content: UITextField!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -24,7 +22,6 @@ class SecretViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation

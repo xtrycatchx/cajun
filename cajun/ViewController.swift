@@ -94,7 +94,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             secretList.append(Secret(target: targetTrimmed, content: contentTrimmed))
             tableView.reloadData()
         }
-        
     }
     
     func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
@@ -102,13 +101,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
-        let sourceItemIndexPath = sourceIndexPath.row
-        let destinationItemIndexPath = destinationIndexPath.row
-        let toDoItem = secretList[sourceItemIndexPath]
+        //let sourceItemIndexPath = sourceIndexPath.row
+        //let destinationItemIndexPath = destinationIndexPath.row
+        //let toDoItem = secretList[sourceItemIndexPath]
         
-        if sourceItemIndexPath != destinationItemIndexPath {
-            secretList.swapAt(sourceItemIndexPath, destinationItemIndexPath)
-        }// else {
+        //if sourceItemIndexPath != destinationItemIndexPath {
+        //    secretList.swapAt(sourceItemIndexPath, destinationItemIndexPath)
+        //}// else {
         //   todoList.insert(toDoItem, at: destinationItemIndexPath)
         //   todoList.remove(at: sourceItemIndexPath)
         //}
